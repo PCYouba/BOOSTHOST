@@ -1,0 +1,174 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+a{
+	color: #93aabb;
+	text-decoration: none;
+	display: block;
+}
+a:hover{
+	color: #f7941d;
+}
+h1{
+	color: #F7941D;
+	font-size: 40px;
+}
+h3{
+	color: #bdbfc1;
+	font-size: 15px;
+	font-weight: 300;
+}
+h2{
+	color: #656f8c;
+	font-size: 20px;
+}
+h4{
+	color: #F7941D;
+	font-size: 30px;
+	font-weight: 500;
+}
+h5{
+	color: #7f9db0;
+	font-size: 30px;
+	font-weight: 500;
+}
+h6{
+	color: #7f9db0;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.all{
+	width: 1900px;
+	height: 1660px;
+	background-color: #ffffff;
+	border: 1px solid white;
+}
+.top{
+	height: 145px;
+	width: 1900px;
+	background-color: #fbfbfb;
+	position: absolute;
+	/*border: 1px solid green;*/
+}
+.logo{
+	height:50px;
+	width: 170px;
+	margin-left: 365px;
+	margin-top: 45px;
+}
+.daohang{
+	display: block;
+	font-size: 10px;
+	font-weight:900;
+	
+}
+.daohang ul{
+	list-style-type: none;
+	position: absolute;
+	margin-left: 1035px;
+	margin-top: -20px;
+}
+.daohang ul li{
+	text-decoration: none;
+	float: left;
+	margin-right: 30px;
+	/*text-align: center;*/
+}
+.daohang ul li div{
+	display: none;
+	background: #f7941d;
+	height: 120px;
+	width: 150px;
+	text-align: center;
+}
+.daohang ul li div a{
+	display: block;
+	margin-top: 20px;
+	color: white;
+	font-weight: 500;
+}
+.boxleft{
+	/*position: absolute;*/
+	height: 610px;
+	width: 1180px;
+	/*border: 1px solid red;*/
+	margin: 200px auto;
+}
+.about{
+	float: left;
+	width: 370px;
+	height: 610px;
+	/*border: 1px solid blue;*/
+}
+.about .pic{
+	margin-top: 30px;
+}
+.about h6{
+	margin-top: 25px;
+}
+.about h3{
+	margin-top: 20px;
+}
+.over{
+	float: left;
+	width: 370px;
+	height: 610px;
+	margin-left: 30px;
+	/*border: 1px solid blue;*/
+}
+.over h6{
+	margin-top: 35px;
+}
+.over h3{
+	margin-top: 15px;
+}
+#button{
+	width: 130px;
+	height: 45px;
+	border-radius: 5px;
+	background-color: #9bb2c1;
+	color: white;
+	margin-top: 50px;
+}
+.team{
+	float: left;
+	width: 370px;
+	height: 610px;
+	margin-left: 30px;
+	/*border: 1px solid blue;*/
+}
+.team img{
+	margin: 6px;
+}
+.testimon{
+	height: 350px;
+	width: 1900px;
+	background-color: #fbfcfe;
+	border:  1px solid #e6e9eb;
+}
+.testimon .boxs{
+	height: 320px;
+	width: 1220px;
+	/*border: 1px solid red;*/
+	margin: 20px auto;
+}
+.boxs .boxx1,.boxs .boxx2,.boxs .boxx3,.boxs .boxx4{
+	float: left;
+	height: 320px;
+	width: 300px;
+	/*border: 1px solid red;*/
+}
+.name{
+	color: #7F9DB0;
+}
+.boxs a{
+	display: block;
+	color: #F7941D;
+}
+.foot{
+	position: absolute;
+	margin-top: 230px;
+}

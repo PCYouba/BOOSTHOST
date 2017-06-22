@@ -1,0 +1,294 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+a{
+	color: #93aabb;
+	text-decoration: none;
+}
+a:active{
+	color: #f7941d;
+}
+h1{
+	color: #F7941D;
+	font-size: 40px;
+}
+h3{
+	color: #e2cec1;
+	font-size: 15px;
+}
+h2{
+	color: #656f8c;
+	font-size: 20px;
+}
+h4{
+	color: #F7941D;
+	font-size: 30px;
+	font-weight: 500;
+}
+h5{
+	color: #7D9AAF;
+	font-size: 30px;
+	font-weight: 500;
+}
+.all{
+	width: 1900px;
+	height: 1660px;
+	background-color: #ffffff;
+	border: 1px solid white;
+}
+.top{
+	height: 145px;
+	width: 1900px;
+	background-color: #fbfbfb;
+	position: absolute;
+	/*border: 1px solid green;*/
+}
+.logo{
+	height:50px;
+	width: 170px;
+	margin-left: 365px;
+	margin-top: 45px;
+}
+.daohang{
+	display: block;
+	font-size: 10px;
+	font-weight:900;
+	
+}
+.daohang ul{
+	list-style-type: none;
+	position: absolute;
+	margin-left: 1035px;
+	margin-top: -20px;
+}
+.daohang ul li{
+	text-decoration: none;
+	float: left;
+	margin-right: 30px;
+}
+
+.banner{
+	height: 445px;
+	width: 1900px;
+	background-image: url(../img/01_02.jpg);
+	background-repeat-x: inherit;
+	/*border: 1px solid red;*/
+	margin-top: 145px;
+}
+.kuai{
+	position: absolute;
+	/*border: 1px solid #F7941D;*/
+	height: 390px;
+	width: 1200px;
+	/*border: 1px solid darkblue;*/
+	margin-top: 30px;
+	margin-left: 365px;
+	
+}
+.fangkuai{
+	position: absolute;
+	height: 390px;
+	width: 270px;
+	background-color: #FFFFFF;
+	border: 1px solid #bac1c6;
+	
+}
+.fangkuai2{
+	position: absolute;
+	height: 390px;
+	width: 270px;
+	margin-left: 305px;
+	background-color: #FFFFFF;
+	border: 1px solid #bac1c6;
+	
+}
+.fangkuai3{
+	position: absolute;
+	height: 390px;
+	width: 270px;
+	margin-left: 610px;
+	background-color: #FFFFFF;
+/*	border: 1px solid #bac1c6;*/
+	
+}
+.fangkuai4{
+	position: absolute;
+	height: 390px;
+	width: 270px;
+	margin-left: 915px;
+	background-color: #FFFFFF;
+	border: 1px solid #bac1c6;
+	
+}
+
+.fangkuaitop{
+	color: white;
+	font-size: 35px;
+	
+}
+.fangkuaitop span{
+	display: block;
+	position: absolute;
+	height: 65px;
+	width: 100%;
+	/*margin: 10px 65px;*/
+	text-align: center;
+}
+.fangkuaicenter{
+	position: absolute;
+	height: 200px;
+	width: 100%;
+	/*border: 1px solid #F7941D;*/
+}
+.fangkuaicenter h1,.fangkuaicenter h2,.fangkuaicenter h3{
+	text-align: center;
+	margin-top: 5px;
+}
+.fangkuaibottom{
+	position: absolute;
+	height: 90px;
+	width: 100%;
+	background-color: #f5f5f5;
+	margin-top: 205px;
+	/*border: 1px solid blue;*/
+}
+#button{
+	width: 120px;
+	height: 45px;
+	border-radius: 5px;
+	background-color: #9bb2c1;
+	color: white;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+.anniu{
+	position: absolute;
+	height: 125px;
+	width: 1900px;
+	background-color: #fcfcfc;
+	/*border:  1px solid red;*/
+}
+.text{
+	/*position: absolute;*/
+	margin-top: 30px;
+	margin-left: 365px;
+}
+.BUTTON{
+	height: 45px;
+	margin-left: 1200px;
+	margin-top: -50px;
+	/*border: 1px solid black;*/
+}
+#orange{
+	background-color: #F7941D;
+	height:45px;
+	width: 170px;
+	border-radius: 5px;
+	color: white;
+	
+}
+#blue{
+	background-color: #7d9aaf;
+	height:45px;
+	width: 170px;
+	border-radius: 5px;
+	color: white;
+}
+.box{
+	position: absolute;
+	width: 1900px;
+	height: 350px;
+	border: 1px solid #ebeced;
+	margin-top: 125px;
+}
+.box_nav{
+	width: 1170px;
+	height: 275px;
+	/*border:  1px solid red;*/
+	margin: 35px auto;
+}
+.box1,.box2,.box3,.box4{
+	float: left;
+	height: 270px;
+	width: 250px;
+	
+}
+.box1 ul{
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.box ul li{
+	color: #F7941D;
+}
+.box h3{
+	margin-top: 15px;
+}
+#shopnow{
+	height: 40PX;
+	width: 120PX;
+	color: white;
+	background-color: #7D9AAF;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+.box2{
+	margin-left: 35px;
+}.box3{
+	margin-left: 35px;
+}
+.box4{
+	margin-left: 35px;
+}
+.featu{
+	position: absolute;
+	height: 400px;
+	width: 1900px;
+	/*border: 1px solid red;*/
+	margin-top: 480px;
+}
+.featu .text{
+	color: #7D9AAF;
+	font-size: 30px;
+}
+.bbox{
+	
+	width: 1170px;
+	height: 280px;
+	/*border:  1px solid blue;*/
+	margin: 30px auto;
+}
+.bbox1,.bbox2,.bbox3,.bbox4{
+	float: left;
+	height: 280px;
+	width: 250px;
+	/*border: 1px solid blue;*/
+}
+.bbox2{
+	margin-left: 35px;
+}.bbox3{
+	margin-left: 35px;
+}
+.bbox4{
+	margin-left: 35px;
+}
+.featu .pic{
+	width: 85px;
+	height: 85px;
+	background-image: url(../img/01_10.jpg);
+	margin: 0 auto;
+}
+.featu .ttext{
+	margin-top: 30px;
+	text-align: center;
+}
+.ttext h3{
+	margin-top: 10px;
+}
+.foot {
+	position: absolute;
+	margin-top: 885px;
+	
+}
